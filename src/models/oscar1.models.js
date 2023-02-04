@@ -9,24 +9,28 @@ const Oscar1 = db.define("oscar", {
   },
   model: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   make: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   color: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   year: {
     type: DataTypes.INTEGER,
-    allowNull: false
+    allowNull: false,
   },
   price: {
     type: DataTypes.INTEGER,
-    allowNull: false
-  }
-})
+    allowNull: false,
+  },
+  type: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+});
 
 module.exports = Oscar1;
