@@ -26,6 +26,14 @@ const Oscar1 = db.define("oscar", {
   price: {
     type: DataTypes.INTEGER,
     allowNull: false
+  },
+  motor: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  transmission: {
+    type: DataTypes.STRING,
+    allowNull: false
   }
 })
 
