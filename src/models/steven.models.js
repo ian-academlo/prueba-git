@@ -24,6 +24,10 @@ const StevenStack = database.define('stevenStack', {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  linkedin: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
 });
 
 module.exports = StevenStack;
