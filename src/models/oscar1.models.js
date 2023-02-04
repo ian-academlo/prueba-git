@@ -31,6 +31,14 @@ const Oscar1 = db.define("oscar", {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  motor: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  transmission: {
+    type: DataTypes.STRING,
+    allowNull: false
+  }
 });
 
 module.exports = Oscar1;
