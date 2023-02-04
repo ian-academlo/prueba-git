@@ -19,6 +19,8 @@ const getFriends = async (req, res) => {
   }
 };
 
+const addfriend = async (req, res) => {};
+
 module.exports = {
   getFriendById,
   getFriends,
