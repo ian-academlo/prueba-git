@@ -1,8 +1,8 @@
-const database = require('../utils/database');
+const database = require("../utils/database");
 
-const { DataTypes } = require('sequelize');
+const { DataTypes } = require("sequelize");
 
-const StevenStack = database.define('stevenStack', {
+const StevenStack = database.define("stevenStack", {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -23,6 +23,9 @@ const StevenStack = database.define('stevenStack', {
   github: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  facebook: {
+    type: DataTypes.STRING,
   },
   linkedin: {
     type: DataTypes.STRING,

@@ -33,12 +33,12 @@ const Oscar1 = db.define("oscar", {
   },
   motor: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   transmission: {
     type: DataTypes.STRING,
-    allowNull: false
-  }
+    allowNull: false,
+  },
 });
 
 module.exports = Oscar1;
